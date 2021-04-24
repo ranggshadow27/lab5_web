@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400&display=swap');
+
+        body {
+            font-family: 'poppins';
+            background-color: #f5f3f4;
+        }
+
+        input[type="text"] {
+            padding: 5px auto;
+            margin: 5px;
+            background-color: #f5f3f4;
+            border-radius: 5px;
+            border: 1px solid #023047;
+            font-family: 'poppins';
+            text-align: center;
+        }
+
+        h2 {
+            color : #ef476f;
+        }
+
+        hr{
+            margin : 15px auto;
+            border-color: #ef476f;
+        }
+
+    </style>
+    <script lang="javascript">
+        function hitung(ele) {
+            var total = document.getElementById('total').value;
+                total = (total ? parseInt(total) : 0 );
+            var harga = 0 ;
+
+            if (ele.checked) {
+                harga = ele.value;
+                total += parseInt(harga);
+            } else {
+                harga = ele.value;
+                if (total > 0)
+                    total -= parseInt(harga);
+            }
+            document.getElementById('total').value =total;
+        }
+    </script>
+</head>
+<body>
+    <h1>Pengenalan Javascript</h1>
+    <p>Percobaan memakai Javascript</p>
+    <h2>Daftar Menu Makanan</h2>
+    <label><input type="checkbox" value="15000" id="rendang" onclick="hitung(this);"/> Nasi Rendang Rp. 15.000</label><br/>
+    <label><input type="checkbox" value="12000" id="nasgor" onclick="hitung(this);"/> Nasi Goreng Rp. 12.000</label><br/>
+    <label><input type="checkbox" value="7000" id="naskun" onclick="hitung(this);"/> Nasi Kuning Rp. 7.000</label><hr/>
+    <strong>Total Bayar : Rp. <input id="total" type="text"/></strong>
+</body>
+</html>

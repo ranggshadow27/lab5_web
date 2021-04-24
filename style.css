@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400&display=swap');
+
+body {
+    font-family: 'poppins';
+    background: #073b4c;
+}
+
+h2 {
+    color: #fff;
+  }
+
+h4 {
+    color: #ffd166;
+  }
+   
+  .login {
+    padding: 1em;
+    margin: 2em auto;
+    width: 20em;
+    background: #fff;
+    border-radius: 3px;
+  }
+   
+  label {
+    font-size: 10pt;
+    color: #555;
+  }
+   
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 8px;
+    width: 95%;
+    background: #efefef;
+    border: 0;
+    font-size: 10pt;
+    font-family: 'poppins';
+    margin: 6px 0px;
+  }
+   
+  .button {
+    background: #073b4c;
+    color: #fff;
+    border: 0;
+    margin: 5px 0px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    width: 100%;
+    font-family: 'poppins';
+  }

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Latihan Javascript</title>
+
+    <script type="text/javascript">
+        function validasi() {
+            var nama = document.getElementById("nama").value;
+            var nim = document.getElementById("nim").value;
+            var alamat = document.getElementById("alamat".value);
+            if (nama!=="" && nim!=="" && alamat!=="") {
+                alert ("Terimakasih! Selamat Datang " + nama);
+            } else {
+                alert ("Mohon maaf isi datanya yang bener ya!");
+            }
+        }
+    </script>
+</head>
+<body>
+    <center><h2>Rangga Tito Prayogo</h2></center>
+    <center><h4>Form Validasi menggunakan JS</h4></center>
+	<div class="login" id="login">
+		<form action="#login">
+			<div>
+				<label>Nama Lengkap:</label>
+				<input type="text" name="nama" id="nama" placeholder="Input Nama"/>
+			</div>
+			<div>
+				<label>NIM:</label>
+				<input type="text" name="nim" id="nim" placeholder="Input NIM" />
+			</div>
+			<div>
+				<label>Alamat:</label>
+				<textarea cols="30" rows="3" name="alamat" id="alamat" placeholder="Input Alamat"></textarea>
+			</div>
+			<div>
+				<input type="submit" value="Daftar" class="button" onclick="validasi()">
+			</div>
+		</form>
+	</div>
+</body>
+</html>
