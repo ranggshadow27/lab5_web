@@ -1,4 +1,5 @@
 # lab5_web
+<p>Rangga Tito Prayogo - 311910036</p>
 
 Menggunakan console.log dan document.write
 <img src="https://user-images.githubusercontent.com/46300525/115853858-d227da00-a453-11eb-9af3-3adc5a5d5876.png">
@@ -37,7 +38,7 @@ Menggunakan form button
 Menggunakan checkedbox dengan perhitungan otomatis
 <img src="https://user-images.githubusercontent.com/46300525/115886762-71ac9300-a47b-11eb-8b0c-3e004f426163.png">
 
+Membuat Form Validasi
 <img src="https://user-images.githubusercontent.com/46300525/115891940-df0ef280-a480-11eb-923e-b92485eda7f4.png">
-
 <img src="https://user-images.githubusercontent.com/46300525/115891988-ecc47800-a480-11eb-99b5-b36c939e3c07.png">
 
