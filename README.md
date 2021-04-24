@@ -6,7 +6,6 @@ Menggunakan console.log dan document.write
 
 Menggunakan window.alert
 <img src="https://user-images.githubusercontent.com/46300525/115854048-0c917700-a454-11eb-876f-ef875c342905.png">
-
 <img src="https://user-images.githubusercontent.com/46300525/115854359-5b3f1100-a454-11eb-83ab-6fde5066a15b.png">
 
 Menggunakan prompt
